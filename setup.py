@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="cnba",
-    version='0.0.1',
+    version='1.0.0',
     author = 'Ayushman Kumar Banerjee',
     author_email = 'ayushmaan.banerjee@gmail.com',
     url = 'https://github.com/namhsuya/cnba/',
@@ -17,7 +17,7 @@ setup(
     ],
     entry_points='''
     [console_scripts]
-    cnba=cnba.cnba.__main__:main
+    cnba=cnba.__main__:main
     '''
 
 )
